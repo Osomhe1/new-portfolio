@@ -12,9 +12,9 @@ let projects = [
     category: 'web',
     title: 'Ileyah',
     image: '/images/projects/Ileyah-Rent-Now-Pay-Later-Pay-Rent-Instalmentally.png',
-     link: 'https://ileyah.com/',
+    link: 'https://ileyah.com/',
     description: `Ileyah, is a revolutionary Fintech solution that allows people split their rent payments and make real estate ownership more accessible and manageable. 
-  . Built with React, Next.js & Tailwind CSS`
+    . Built with React, Next.js & Tailwind CSS`
   },
   {
     id: 'jms',
@@ -49,7 +49,15 @@ let projects = [
     link: 'https://www.darlink.to/',
     description: `THis is an Application that helps you manage your business link all in one place. Built with NextJS, & Tailwind`
   },
- 
+  {
+    id: 'Job Listings',
+    category: 'web',
+    title: 'Job Listings',
+    image: '/images/projects/Frontend-Mentor-Job-Listings.png',
+    link: 'https://jobslistings.netlify.app/',
+    description: `THis is an Application to showcase avalible job. Built with React Js, & Tailwind`
+  },
+  
 ];
 
 export default projects;
