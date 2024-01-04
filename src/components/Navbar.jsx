@@ -1,21 +1,30 @@
-import { Box, Button, Container, Flex, HStack, IconButton, Spacer, useColorMode } from "@chakra-ui/react";
-import { FiMoon, FiSun } from "react-icons/fi";
-import Logo from "./Logo.jsx";
-import { HiArrowDown } from "react-icons/hi";
+import {
+  Box,
+  Button,
+  Container,
+  Flex,
+  HStack,
+  IconButton,
+  Spacer,
+  useColorMode,
+} from '@chakra-ui/react'
+import { FiMoon, FiSun } from 'react-icons/fi'
+import Logo from './Logo.jsx'
+import { HiArrowDown } from 'react-icons/hi'
 
 const Navbar = () => {
-  const { colorMode, toggleColorMode } = useColorMode();
-  const isDark = colorMode === "dark";
-  
+  const { colorMode, toggleColorMode } = useColorMode()
+  const isDark = colorMode === 'dark'
+
   const handleClick = (link) => {
-    window.open(link, '_blank');
-  };
+    window.open(link, '_blank')
+  }
 
   return (
-    <Box width="full" as="nav">
-      <Container maxW="6xl" height="120px" display="flex" alignItems="center">
-        <Logo/>
-        <Spacer/>
+    <Box width='full' as='nav'>
+      <Container maxW='6xl' height='120px' display='flex' alignItems='center'>
+        <Logo />
+        <Spacer />
         {/* <HStack spacing="6">
           {
             isDark ? (
@@ -36,22 +45,31 @@ const Navbar = () => {
             )
           }
         </HStack> */}
-        <Flex align="center" mt="">
-                  <Button
-                    onClick={() => handleClick( 'https://drive.google.com/file/d/1Sgz9736A-hHlQ8hq53LqLI_u-p2EB2YP/view?usp=drive_link')}
-                     rounded="full" 
-                    rightIcon={ <HiArrowDown/> } px="6"
-                    backgroundColor={ colorMode === 'light' ? 'gray.800' : 'gray.200' }
-                    color={ colorMode === 'light' ? '#fff' : 'gray.900' }
-                    _hover={ { background: colorMode === 'light' ? 'gray.700' : 'gray.50' } }
-                    _active={ { background: colorMode === 'light' ? 'gray.600' : 'gray.400' } }
-                  >
-                    Download CV
-                  </Button>
-                </Flex>
+        <Flex align='center' mt=''>
+          <Button
+            onClick={() =>
+              handleClick(
+                'https://drive.google.com/file/d/1nk8aRgUoheBGYoO7guN_HThxjfXXoX_O/view?usp=drive_link'
+              )
+            }
+            rounded='full'
+            rightIcon={<HiArrowDown />}
+            px='6'
+            backgroundColor={colorMode === 'light' ? 'gray.800' : 'gray.200'}
+            color={colorMode === 'light' ? '#fff' : 'gray.900'}
+            _hover={{
+              background: colorMode === 'light' ? 'gray.700' : 'gray.50',
+            }}
+            _active={{
+              background: colorMode === 'light' ? 'gray.600' : 'gray.400',
+            }}
+          >
+            Download CV
+          </Button>
+        </Flex>
       </Container>
     </Box>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar
