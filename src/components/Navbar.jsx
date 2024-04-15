@@ -49,7 +49,7 @@ const Navbar = () => {
           <Button
             onClick={() =>
               handleClick(
-                'https://drive.google.com/file/d/1nk8aRgUoheBGYoO7guN_HThxjfXXoX_O/view?usp=drive_link'
+                'https://drive.google.com/file/d/1ZrViq2F7i5ZnmIQ_4iDY06XR9S2a8KdC/view?usp=drivesdk'
               )
             }
             rounded='full'
