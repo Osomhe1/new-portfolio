@@ -33,14 +33,14 @@ let projects = [
     link: 'https://440-admin.netlify.app/global-store-orders/jumia',
     description: `440 brings your market closer to you . Built with React & Tailwind`,
   },
-  {
-    id: 'zuri',
-    category: 'web',
-    title: 'Zuri',
-    image: '/images/projects/Zuri.png',
-    link: 'https://www.zuri.team/',
-    description: ` Zuri is equipping youth with technological skills, fostering a supportive community, creating employment opportunities. Built with HTML and Tailwind CSS`,
-  },
+  // {
+  //   id: 'zuri',
+  //   category: 'web',
+  //   title: 'Zuri',
+  //   image: '/images/projects/Zuri.png',
+  //   link: 'https://www.zuri.team/',
+  //   description: ` Zuri is equipping youth with technological skills, fostering a supportive community, creating employment opportunities. Built with HTML and Tailwind CSS`,
+  // },
 
   {
     id: 'darlink',
@@ -65,6 +65,22 @@ let projects = [
     image: '/images/projects/Osomhe-Aleogho.png',
     link: 'https://osomhe.netlify.app/',
     description: `This is an Application to showcase my some of my recent work. Built with Next Js, & Tailwind`,
+  },
+  {
+    id: 'Trendit³',
+    category: 'web',
+    title: 'Trendit³',
+    image: '/images/projects/Trendit³.png',
+    link: 'https://app.trendit3.com/',
+    description: `Trendit³ is a social finance platform that connects advertisers with earners. Advertisers are those who want to grow or boost their social media presence by posting tasks for earners to perform, such as following, resharing, liking, and commenting, etc. Earners are individuals who are paid for completing these simple tasks on their social media platforms. This was built with React Js, & Tailwind`,
+  },
+  {
+    id: '2geda',
+    category: 'web',
+    title: '2geda',
+    image: '/images/projects/2GEDA.png',
+    link: 'https://2geda.net/',
+    description: `This is a social media application which helps you also manage all you business, take annonymos vote and lots more in one place. This application is part of my recent work. Built with React Js,  Tailwind, & Redux`,
   },
 ]
 
