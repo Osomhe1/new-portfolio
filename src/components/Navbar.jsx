@@ -21,8 +21,8 @@ const Navbar = () => {
   }
 
   return (
-    <Box width='full' as='nav'>
-      <Container maxW='6xl' height='120px' display='flex' alignItems='center'>
+    <Box width="full" as="nav">
+      <Container maxW="6xl" height="120px" display="flex" alignItems="center">
         <Logo />
         <Spacer />
         {/* <HStack spacing="6">
@@ -45,23 +45,23 @@ const Navbar = () => {
             )
           }
         </HStack> */}
-        <Flex align='center' mt=''>
+        <Flex align="center" mt="">
           <Button
             onClick={() =>
               handleClick(
-                'https://drive.google.com/file/d/1Xi0YDR6Xa0B-KjClpoquu-cyay5iYCNm/view?usp=drive_link'
+                "https://drive.google.com/file/d/1SM1ojtaJYpoX2M-EE_06xt3KwE-HRz1s/view?usp=sharing"
               )
             }
-            rounded='full'
+            rounded="full"
             rightIcon={<HiArrowDown />}
-            px='6'
-            backgroundColor={colorMode === 'light' ? 'gray.800' : 'gray.200'}
-            color={colorMode === 'light' ? '#fff' : 'gray.900'}
+            px="6"
+            backgroundColor={colorMode === "light" ? "gray.800" : "gray.200"}
+            color={colorMode === "light" ? "#fff" : "gray.900"}
             _hover={{
-              background: colorMode === 'light' ? 'gray.700' : 'gray.50',
+              background: colorMode === "light" ? "gray.700" : "gray.50",
             }}
             _active={{
-              background: colorMode === 'light' ? 'gray.600' : 'gray.400',
+              background: colorMode === "light" ? "gray.600" : "gray.400",
             }}
           >
             Download CV
@@ -69,7 +69,7 @@ const Navbar = () => {
         </Flex>
       </Container>
     </Box>
-  )
+  );
 }
 
 export default Navbar
