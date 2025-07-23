@@ -18,8 +18,8 @@ const Projects = () => {
 
   return (
     <>
-      <Container maxW="full" overflow="hidden" px={ { base: 0, md: 4 } }>
-        <SimpleGrid columns={ { base: 1, md: 2, lg: 3 } } spacing={ { base: 4, lg: 4 } } overflow="hidden">
+      <Container maxW="full" overflow="hidden" px={ { base: 0, md: 8 } }>
+        <SimpleGrid columns={ { base: 1, md: 2, lg: 3 } } spacing={ { base: 6, lg: 12 } } overflow="hidden">
           {
             projects.map((project) => (
               <Project key={ project.id } project={ project } onClick={ () => handleOpen(project) }/>
