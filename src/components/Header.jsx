@@ -46,7 +46,7 @@ const Header = () => {
                   <Text as="span" fontWeight="semibold">
                     Osomhe Aleogho
                   </Text>
-                  , a <strong>Frontend Developer</strong> with a passion for
+                  , a <strong>Software Developer</strong> with a passion for
                   creating beautiful, intuitive, and accessible experiences.
                   Find some of my work below.
                 </Text>
